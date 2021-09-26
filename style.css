@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+:root{
+    --primary-pink--: #831843;
+    --primary-lightpink--: #FBCFE8;
+}
+
+
+body{
+    background-color: var(--primary-pink--);
+    color: var(--primary-lightpink--);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+}
+
+#check-btn{
+  background-color: transparent;
+  border-color: var(--primary-lightpink--);
+  border-width: 0.1rem;
+  color: var(--primary-lightpink--);
+  width: 40%;
+  margin: auto;
+  padding: 0.4rem;
+  margin-top: 1rem;
+}
+
+#result{
+  color: var(--primary-lightpink--);
+  margin: 0.8rem auto;
+
+}
+
+#dob{
+    margin: 0.8rem 0rem;
+
+}
+
+#lucky-number{
+    margin: 0.8rem 0rem;
+}
