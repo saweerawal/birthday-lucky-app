@@ -19,8 +19,11 @@ function checkBirthdayLucky()
     var sum = calculateSum(dateOfBirth);
     var MyLuckyNumber = Number(luckyNumber.value);
 
-    if(MyLuckyNumber == ""){
-        result.innerText="Enter a number"; 
+    if(MyLuckyNumber == "" || sum == ""){
+        result.innerText="Select date and lucky number"; 
+    }
+    else if(MyLuckyNumber <= 0){
+        result.innerText="Enter a positive integer number";
     }
     else{
         if(sum%MyLuckyNumber===0){

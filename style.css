@@ -32,7 +32,8 @@ body{
 
 #result{
   color: var(--primary-lightpink--);
-  margin: 0.8rem auto;
+  margin: 2rem auto;
+  font-size: large;
 
 }
 
